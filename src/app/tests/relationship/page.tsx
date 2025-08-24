@@ -1,10 +1,10 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { useLanguage } from "@/contexts/language-context"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Progress } from "@/components/ui/progress"
+import { useLanguage } from "../../../contexts/language-context"
+import { Button } from "../../../components/ui/button"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../../../components/ui/card"
+import { Progress } from "../../../components/ui/progress"
 import { ArrowLeft, ArrowRight, RotateCcw, Heart, Users, MessageCircle } from "lucide-react"
 import Link from "next/link"
 
